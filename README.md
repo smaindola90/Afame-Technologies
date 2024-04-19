@@ -6,19 +6,19 @@ This repository comprises the project that I completed as part of my internship 
 
 
 ### Introduction:
-The Indian film industry, one of the largest in the world, produces a vast array of movies across various genres and languages each year. Understanding what factors contribute to a movie's success, particularly its audience rating, is of great interest to filmmakers, producers, and distributors. In this project, we aimed to predict the ratings of Indian movies based on a variety of features including release year, duration, genre, and number of votes, using machine learning techniques.
+The Indian film industry is one of the largest in the world. It produces many movies across various genres each year. In this project, we aimed to understand how different factors contribute to a movie's success, particularly its rating, and predict the ratings of movies based on a variety of features including release year, duration, genre, number of votes, etc. using machine learning techniques.
 
 ### Data Collection and Preprocessing:
-We collected a comprehensive dataset of Indian movies from various sources including IMDb, Box Office India, and Filmibeat. The dataset included information such as movie title, release year, duration, genre, number of votes, and IMDb rating. Data preprocessing involved handling missing values, encoding categorical variables, and scaling numerical features to ensure compatibility with machine learning algorithms.
+The dataset is pulled from IMDb.com of all the Indian movies on the platform. It included information such as movie title, release year, duration, genre, number of votes, IMDb rating, etc. Data preprocessing involved handling missing values, encoding categorical variables, transforming features, and scaling numerical features to ensure compatibility with machine learning algorithms.
 
-### Feature Selection and Engineering:
-To build an effective predictive model, we conducted feature selection and engineering to identify the most relevant attributes for predicting movie ratings. We performed exploratory data analysis to gain insights into the relationships between different features and the target variable. Additionally, we utilized techniques such as correlation analysis and feature importance ranking to select the most influential features for our model.
+### Exploratory Data Analysis:
+To better understand the data first, we performed exploratory data analysis to gain insights into the features and their relationships with the target variable. We used several plots to visualize the insights and findings.
 
-### Model Selection and Training:
-For our prediction task, we experimented with several machine learning algorithms including linear regression, decision trees, random forests, and gradient boosting techniques. We employed cross-validation to evaluate the performance of each model and fine-tuned hyperparameters using techniques like grid search and random search to improve predictive accuracy. Additionally, we applied ensemble methods to combine the predictions of multiple models for better overall performance.
+### Model Training and Selection:
+For our prediction task, we experimented with several machine learning algorithms including linear regression, k-nearest neighbors, support vector machine, random forests, adaptive boosting, and gradient boosting techniques. We used cross-validation and random search to evaluate and tune the performance of each model to improve predictive accuracy and prevent overfitting.
 
 ### Evaluation and Results:
-We evaluated the performance of our models using metrics such as mean squared error (MSE), mean absolute error (MAE), and R-squared (R2) score. Our best-performing model demonstrated strong predictive performance, accurately estimating the ratings of Indian movies with a high degree of precision. Furthermore, we conducted feature importance analysis to gain insights into the factors that most strongly influence movie ratings, providing valuable information for stakeholders in the film industry.
+We evaluated the performance of our models using metrics such as root mean squared error (RMSE), R-squared (R2) score, and mean absolute error (MAE). Our best-performing model demonstrated strong predictive performance, accurately estimating the ratings of Indian movies with mean absolute error (MAE) of 0.84.
 
 ### Conclusion:
-In conclusion, our project successfully demonstrated the feasibility of predicting the ratings of Indian movies using machine learning techniques. By leveraging features such as release year, duration, genre, and number of votes, we developed a robust predictive model that can assist filmmakers, producers, and distributors in understanding and optimizing the factors that contribute to the success of their movies. Our findings contribute to the growing body of research aimed at leveraging data-driven approaches to enhance decision-making in the entertainment industry.
+In conclusion, our project successfully demonstrated the feasibility of predicting the ratings of Indian movies using machine learning techniques. By leveraging features such as release year, duration, genre, number of votes, etc. we developed a robust predictive model that can assist us in understanding and optimizing the factors that contribute to the success of the movies. Our findings contribute to the growing body of research aimed at leveraging data-driven approaches to enhance decision-making in the entertainment industry.

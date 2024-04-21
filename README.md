@@ -18,7 +18,7 @@ To better understand the data first, we performed exploratory data analysis to g
 For our prediction task, we experimented with several machine learning algorithms including linear regression, k-nearest neighbors, support vector machine, random forests, adaptive boosting, and gradient boosting techniques. We used cross-validation and random search to evaluate and tune the performance of each model to improve predictive accuracy and prevent overfitting.
 
 ### Evaluation and Results:
-We evaluated the performance of our models using metrics such as root mean squared error (RMSE), R-squared (R2) score, and mean absolute error (MAE). Our best-performing model demonstrated strong predictive performance, accurately estimating the ratings of Indian movies with mean absolute error (MAE) of 0.84.
+We evaluated the performance of our models using metrics such as root mean squared error (RMSE), R-squared (R2) score, and mean absolute error (MAE). Our best-performing model demonstrated strong predictive performance, accurately estimating the ratings of Indian movies with mean absolute error (MAE) of 0.83.
 
 ### Conclusion:
 In conclusion, our project successfully demonstrated the feasibility of predicting the ratings of Indian movies using machine learning techniques. By leveraging features such as release year, duration, genre, number of votes, etc. we developed a robust predictive model that can assist us in understanding and optimizing the factors that contribute to the success of the movies. Our findings contribute to the growing body of research aimed at leveraging data-driven approaches to enhance decision-making in the entertainment industry.
